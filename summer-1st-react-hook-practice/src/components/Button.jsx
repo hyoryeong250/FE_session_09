@@ -15,6 +15,10 @@ export function Button({ label, bgColor, buttonHandler }) {
   // - 배경색은 color props로 전달합니다.
   // - 클릭 이벤트는 onClick으로 연결합니다.
   // - 화면에는 label 값을 보여줍니다.
+return (
+  <BoxWrapper color={bgColor} onClick={buttonHandler}>
+    {label}
+  </BoxWrapper>
+);
 
-  return <BoxWrapper>버튼</BoxWrapper>;
 }
