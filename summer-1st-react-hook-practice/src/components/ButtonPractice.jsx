@@ -20,13 +20,13 @@ function ButtonPractice() {
   return (
     <div>
     {<Button
-  label="1번 버튼"
+  label="리액트 어렵죠..? ㅠㅠ"
   bgColor="#5e3afd"
   buttonHandler={firstButtonHandler}
 />}
 
       {<Button
-  label="2번 버튼"
+  label="과제 끝내기!"
   bgColor="#2c9c4e"
   buttonHandler={secondButtonHandler}
 />}
